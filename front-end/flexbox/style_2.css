@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #1a1c28;
+
+
+
+}
+
+main {
+    padding: 3em;
+    display: grid;
+    width: 50%;
+    gap: 10px;
+    margin: auto;
+    grid-template-areas:
+        'a a a b b'
+        'a a a b b'
+        'c c d d d'
+        'c c e e e'
+    ;
+}
+
+main div {
+
+    padding: 5em;
+
+}
+
+.item1 {
+    background-color: #eb5020;
+    grid-area: a;
+}
+
+.item2 {
+    background-color: #ffa401;
+    grid-area: b;
+}
+
+.item3 {
+    background-color: #05aa42;
+    grid-area: c;
+}
+
+.item4 {
+    background-color: #01aefd;
+    grid-area: d;
+}
+
+.item5 {
+    background-color: #01aefd;
+    grid-area: e;
+}
