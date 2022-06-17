@@ -1,0 +1,286 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+.one{
+    background-image: url(bg-hero-desktop.svg);
+    background-color: #edfbfe;
+    width: 100%;
+    color: #07242c;
+}
+li{
+    float: left;
+}
+
+.onea{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.onea button{
+    padding: 10px;
+    width: 15%;
+    border-radius: 20px;
+    color: #07242c;
+    text-align: center;
+    background-color: white;
+    border-color: transparent;
+    box-shadow:  2px 2px 10px 5px rgba(29, 30, 31, 0.466);
+}
+
+.one-a1 button{
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    color: #edfbfe;
+    text-align: center;
+    background-color: #fe52c0;
+    border-color: transparent;
+    margin-top: 25px;
+    
+}
+
+.one-a1 p{
+    margin-top: 30px;
+    margin-left: 0%;
+    padding-left: 0%;
+    width: fit-content;
+}
+.one-a1 h1{
+    width: fit-content;
+    
+}
+.one-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.one-a1 h1{
+    font-family: "Poppins";
+
+}
+
+.one-a1{
+    width: 100%;
+}
+
+.one-a2{
+    width: 100%;
+}
+
+.one-a img{
+    width: 100%;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+h2{
+    font-family: "Poppins";
+}
+
+p, td, button{
+    font-family: "Open Sans";
+}
+.two-a, .two-b, .two-c{
+    box-shadow:  2px 2px 10px 5px rgba(29, 30, 31, 0.356);
+    border-radius: 10px;
+    width: 90%;
+    height: ;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+    margin-left: 0%;
+    color: #07242c;
+    animation: move 5s infinite;
+
+
+}
+@keyframes move {
+    50% {border-bottom: 15px solid #db83b9d2;}
+  }
+
+
+
+.two-a h2{
+    padding-left: 20%;
+    padding-bottom: 10px;
+    width: max-content;
+}
+.two-a p{
+    padding-left: 20%;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+.two-c h2{
+    
+    padding-bottom: 10px;
+    width: max-content;
+    padding-left: 20%;
+}
+.two-c p{
+    
+    padding-bottom: 10px;
+    padding-left: 20%;
+    width: fit-content;
+}
+.two-b h2{
+    
+    padding-bottom: 10px;
+    padding-right: 80px;
+    width: max-content;
+}
+.two-b p{
+    
+    padding-bottom: 10px;
+    padding-right: 80px;
+    width: fit-content;
+}
+
+
+.two img{
+    width: 50%;
+    float: right;
+    margin: 30px 30px;
+    margin-right: 80px;
+    margin-left: 0%;
+    
+}
+
+.two-b img{
+    float: left;
+    margin-left: 80%;
+    margin: 30px 30px;
+    margin-right: 0%;
+    width: 50%;
+}
+
+
+.two-d{
+    background-color: #ffffff;
+    height: 200px;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+    top: 50px;
+    box-shadow:  2px 2px 10px 5px rgba(29, 30, 31, 0.356);
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #07242c;
+
+}
+
+.two-d h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.two-d button{
+    padding: 10px;
+    width: 40%;
+    border-radius: 50px;
+    color: #edfbfe;
+    text-align: center;
+    background-color: #fe52c0;
+    border-color: transparent;
+    margin-top: 25px;
+    height: 70px;
+}
+
+.three{
+    background-color: #00252e;
+    z-index: 1;
+    position: ;
+    width: 100%;
+    height: ;
+    
+}
+
+
+.three-1{
+   width: 90%;
+   margin: auto;
+}
+
+.three-1 img{
+    margin-left: 20px;
+    
+}
+.three2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.three-2{
+    width: 50%;
+    margin: 20px;
+}
+table, tr, td{
+    width: max-content;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+
+.three-3{
+    width: 50%;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.three-4{
+    width: 50%;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.three-5{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    align-items: center;
+}
+.three-5 img{
+    width: 40px;
+    height: 40px;
+    margin: px;
+    padding: 10px;
+}
+
+.three-6{
+    width: 100%;
+    text-align: right;
+    color: white;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
